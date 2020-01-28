@@ -30,19 +30,19 @@ The official CVAT user guide is available [here](https://github.com/opencv/cvat/
 
 1. Estrella Damm [`can`](https://cdn.plyzer.com/img/products/100650.jpg) [`bottle`](https://cdn.plyzer.com/img/products/100660.jpg) [`can pack`](https://cdn.plyzer.com/img/products/100652.jpg) [`bottle pack`](https://cdn.plyzer.com/img/products/100658.jpg)
 1. Free Damm [`can`](https://cdn.plyzer.com/img/products/100582.jpg) [`can pack`](https://cdn.plyzer.com/img/products/100583.jpg) [`bottle pack`](https://cdn.plyzer.com/img/products/100584.jpg)
-2. Free Damm Lemon [`can`] (https://cdn.plyzer.com/img/products/100585.jpg) [`can pack`] (https://cdn.plyzer.com/img/products/100586.jpg)
+2. Free Damm Lemon [`can`](https://cdn.plyzer.com/img/products/100585.jpg) [`can pack`](https://cdn.plyzer.com/img/products/100586.jpg)
 1. Voll Damm [`can`](https://cdn.plyzer.com/img/products/100782.jpg) [`bottle`](https://cdn.plyzer.com/img/products/100615.jpg) [`can pack`](https://cdn.plyzer.com/img/products/100610.jpg) [`bottle pack`](https://cdn.plyzer.com/img/products/100613.jpg)
 1. Xibeca [`can`](https://cdn.plyzer.com/img/products/100618.jpg) [`bottle`](https://cdn.plyzer.com/img/products/100616.jpg) [`can pack`](https://cdn.plyzer.com/img/products/100619.jpg) [`bottle pack`](https://cdn.plyzer.com/img/products/100617.jpg)
 1. Damm Lemon [`can`](https://cdn.plyzer.com/img/products/100575.jpg) [`bottle`](https://cdn.plyzer.com/img/products/100688.jpg) [`can pack`](https://cdn.plyzer.com/img/products/100687.jpg) [`bottle pack`](https://cdn.plyzer.com/img/products/100576.jpg)
 1. Daura [`can`](https://cdn.plyzer.com/img/products/100577.jpg) [`bottle`](https://cdn.plyzer.com/img/products/100578.jpg) [`can pack`](https://cdn.plyzer.com/img/products/100780.jpg) [`bottle pack`](https://cdn.plyzer.com/img/products/100779.jpg)
-2. Daura Marzen [`bottle`] (https://cdn.plyzer.com/img/products/100580.jpg) [`bottle pack`] (https://cdn.plyzer.com/img/products/100581.jpg)
+2. Daura Marzen [`bottle`](https://cdn.plyzer.com/img/products/100580.jpg) [`bottle pack`](https://cdn.plyzer.com/img/products/100581.jpg)
 1. Turia [`can`](https://cdn.plyzer.com/img/products/100600.jpg) [`can pack`](https://cdn.plyzer.com/img/products/100601.jpg)[`bottle pack`](https://cdn.plyzer.com/img/products/100602.jpg)
 1. Complot [`bottle`](https://cdn.plyzer.com/img/products/100573.jpg) [`bottle pack`](https://cdn.plyzer.com/img/products/100574.jpg)
 1. Innis & Gunn Blood red sky [`bottle`](https://www.amstein.ch/Htdocs/Images/Pictures/59139.jpg) [`pack`](https://images.heb.com/is/image/HEBGrocery/002204744-1?id=IRbSX0&fmt=jpg)
 1. Malquerida [`bottle`](https://cdn.plyzer.com/img/products/100692.jpg) [`pack`](https://cdn.plyzer.com/img/products/100568.jpg)
 1. AK Damm [`bottle`](https://cdn.plyzer.com/img/products/100569.jpg) [`pack`](https://cdn.plyzer.com/img/products/100570.jpg)
 1. Inedit [`bottle`](https://cdn.plyzer.com/img/products/100587.jpg) [`pack`](https://cdn.plyzer.com/img/products/100588.jpg)
-1. Bock Damm [`can`](https://cdn.plyzer.com/img/products/100571.jpg) [`bottle`] (https://www.dammcorporate.com/sites/default/files/paragraph/product/bock-damm_1.png) [`pack`](https://cdn.plyzer.com/img/products/100572.jpg)
+1. Bock Damm [`can`](https://cdn.plyzer.com/img/products/100571.jpg) [`bottle`](https://www.dammcorporate.com/sites/default/files/paragraph/product/bock-damm_1.png) [`pack`](https://cdn.plyzer.com/img/products/100572.jpg)
 1. Sazz [`bottle`](https://img2.zakaz.ua/white-1001PXD.1348680921.ad72436478c_2012-10-03/white-1001PXD.1348680921.SND186F2.obj.0.6.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg) [`pack`](http://www.lalistadelacompra.es/6338-large_default/-cerveza-saaz-damm-33cl-p-6.jpg)
 1. Shofferhoffer [`can`](https://d3czfiwbzom72b.cloudfront.net/wp-content/uploads/2018/10/06445-SCHOFFERHOFER-GRAPEFRUIT-1-w.png) [`bottle`](https://media-verticommnetwork1.netdna-ssl.com/wines/12-x-schofferhofer-hefeweizen-wheat-50cl-1513861-s508.jpg) [`pack`](https://icdn.bottlenose.wine/images/full/424532.jpg)
 1. Skol Shandy [`can`](https://cdn.plyzer.com/img/products/100598.jpg)
@@ -65,13 +65,13 @@ The official CVAT user guide is available [here](https://github.com/opencv/cvat/
 In order to perform the image labeling while dealing with _false positives_ (products that should not be labeled) and _false negatives_ (products that should be labeled but are not) we propose the following method.
 
 1. **Delete all bounding-boxes** of objects you are **100% sure they do not belong to DAMM products**. Here we list some popuar companies and their trademarks that **should not be labeled**:
-    2. Heineken
-        3. El Águila
-        3. Desperados
-    4. Coronita
-    5. Cruzcampo
-    6. Amstel
-    7. Mahou
+    1. Heineken
+        1. El Águila
+        1. Desperados
+    2. Coronita
+    3. Cruzcampo
+    4. Amstel
+    5. Mahou
         5. Cervezas Alhambra
     6. Paulaner
     7. Erdinger
